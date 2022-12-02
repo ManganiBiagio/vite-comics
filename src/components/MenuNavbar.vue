@@ -27,6 +27,9 @@ ul{
         padding: 0rem .7rem;
         font-size: .7rem;
         font-weight: bold;
+        &:hover{
+           color: blue; 
+        }
     }
 }
 
