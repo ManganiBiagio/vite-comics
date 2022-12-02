@@ -23,6 +23,7 @@ export default {
 
   </div>
   <TheBanner1Vue></TheBanner1Vue>
+  <TheBanner2Vue></TheBanner2Vue>
 
 
 
