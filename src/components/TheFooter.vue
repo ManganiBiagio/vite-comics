@@ -36,6 +36,12 @@ export default {
     background-color: transparent;
     border: 3px solid var(--color-primary);
     padding: 10px;
+    &:hover{
+        background-color: var(--color-primary);
+        transition:background-color .3s;
+        
+        
+    }
 
 }
 .link-box{

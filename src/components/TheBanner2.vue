@@ -9,13 +9,13 @@
                              DC COMICS
                             </span>
                             <ul>
-                                <li>link</li>
-                                <li>link</li>
-                                <li>link</li>
-                                <li>link</li>
-                                <li>link</li>
-                                <li>link</li>
-                                <li>link</li>
+                                <li><a href="#">link</a></li>
+                                <li><a href="#">link</a></li>
+                                <li><a href="#">link</a></li>
+                                <li><a href="#">link</a></li>
+                                <li><a href="#">link</a></li>
+                                <li><a href="#">link</a></li>
+                                <li><a href="#">link</a></li>
     
                             </ul>
                         </div>
@@ -24,8 +24,8 @@
                              SHOP
                             </span>
                             <ul>
-                                <li>link</li>
-                                <li>link</li>
+                                <li><a href="#">link</a></li>
+                                <li><a href="#">link</a></li>
                                
     
                             </ul>
@@ -38,17 +38,17 @@
                              DC
                             </span>
                             <ul>
-                                <li>link</li>
-                                <li>link</li>
-                                <li>link</li>
-                                <li>link</li>
-                                <li>link</li>
-                                <li>link</li>
-                                <li>link</li>
-                                <li>link</li>
-                                <li>link</li>
-                                <li>link</li>
-                                <li>link</li>
+                                <li><a href="#">link</a></li>
+                                <li><a href="#">link</a></li>
+                                <li><a href="#">link</a></li>
+                                <li><a href="#">link</a></li>
+                                <li><a href="#">link</a></li>
+                                <li><a href="#">link</a></li>
+                                <li><a href="#">link</a></li>
+                                <li><a href="#">link</a></li>
+                                <li><a href="#">link</a></li>
+                                <li><a href="#">link</a></li>
+                                <li><a href="#">link</a></li>
                     
     
                             </ul>
@@ -61,11 +61,11 @@
                              SITES
                             </span>
                             <ul>
-                                <li>link</li>
-                                <li>link</li>
-                                <li>link</li>
-                                <li>link</li>
-                                <li>link</li>
+                                <li><a href="#">link</a></li>
+                                <li><a href="#">link</a></li>
+                                <li><a href="#">link</a></li>
+                                <li><a href="#">link</a></li>
+                                <li><a href="#">link</a></li>
                                
     
                             </ul>
@@ -112,7 +112,16 @@ export default {
         padding: unset;
         list-style: none;
         li{
-            color: var(--color-link);
+            text-align: center;
+            a{
+                color: var(--color-link);
+                &:hover{
+                  color: var(--color-primary);
+                  transition: all .2s;
+                }
+            }
+           
+            
             
         }
     }
@@ -121,9 +130,11 @@ export default {
 
 .box-link {
     padding: 0 1rem;
+    text-align: center;
     span{
         font-size: 1.2rem;
         font-weight: bold;
+        
     }
 }
 
