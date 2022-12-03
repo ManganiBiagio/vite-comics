@@ -28,13 +28,13 @@ export default {
 </script>
 <style lang="scss">
 .box-footer{
-    background-color: rgb(43, 43, 43);
+    background-color: var(--color-third);
     padding: 1rem 0;
 }
 .my-btn{
     color: white;
     background-color: transparent;
-    border: 3px solid blue;
+    border: 3px solid var(--color-primary);
     padding: 10px;
 
 }
@@ -45,6 +45,6 @@ export default {
     margin-left:auto ;
 }
 .txt-footer{
-    color: lightblue;
+    color: var(--color-primary);
 }
 </style>

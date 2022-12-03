@@ -18,6 +18,7 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+
 ul{
     display: flex;
     align-items: center;
@@ -28,7 +29,7 @@ ul{
         font-size: .7rem;
         font-weight: bold;
         &:hover{
-           color: blue; 
+           color:var(--color-primary ); 
         }
     }
 }

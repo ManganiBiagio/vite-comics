@@ -35,7 +35,7 @@ export default {
 @use "./styles/general.scss";
 
 .main-content {
-  background-color: black;
+  background-color: var(--color-third);
   .content{
     padding: 2rem 0;
     color: white;

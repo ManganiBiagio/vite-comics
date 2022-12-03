@@ -112,7 +112,7 @@ export default {
         padding: unset;
         list-style: none;
         li{
-            color: lightgray;
+            color: var(--color-link);
             
         }
     }

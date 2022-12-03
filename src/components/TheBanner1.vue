@@ -39,7 +39,7 @@ export default {
 .box-banner-1{
     padding: 2rem 0;
     display: flex;
-    background-color: blue;
+    background-color: var(--color-primary);
     color: white;
     .img-box{
         height: 40px;
