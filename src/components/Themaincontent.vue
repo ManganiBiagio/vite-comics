@@ -3,6 +3,7 @@
         <img src="/imgs/jumbotron.jpg" class="img-fluid" alt="">
     </div>
     <div class="container">
+        <div class="title-main">CURRENT SERIES</div>
         <div class="row row-cols-6  g-4 py-5">
             <div class="col" v-for="fumetti in fumettiList">
                 <div class="card">
@@ -53,5 +54,14 @@ export default {
         
     }
 
+}
+.title-main{
+    color: white;
+    background-color: var(--color-primary);
+    position: relative;
+    top:-15px;
+    font-size: 1.5rem;
+    display: inline;
+    padding: .5rem;
 }
 </style>
