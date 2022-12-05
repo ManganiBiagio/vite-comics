@@ -3,7 +3,7 @@
         <img src="/imgs/jumbotron.jpg" class="img-fluid" alt="">
     </div>
     <div class="container">
-        <div class="row row-cols-6  g-4">
+        <div class="row row-cols-6  g-4 py-5">
             <div class="col" v-for="fumetti in fumettiList">
                 <div class="card">
                     <img :src="fumetti.thumb" class="card-img-top" alt="...">
@@ -34,5 +34,6 @@ export default {
     background-color: transparent;
     border: unset;
     color: white;
+    
 }
 </style>
