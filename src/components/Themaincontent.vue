@@ -5,14 +5,9 @@
     <div class="container">
         <div class="title-main">CURRENT SERIES</div>
         <div class="row row-cols-6  g-4 py-5">
-            <div class="col" v-for="fumetti in fumettiList">
-                <div class="card">
-                    <img :src="fumetti.thumb" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">{{fumetti.series}}</h5>
-                        
-                    </div>
-                </div>
+            <div class="col" v-for="fumetto in fumettiList">
+                <Fumetticard :fumetto="fumetto"></Fumetticard>
+                
             </div>
 
         </div>
@@ -22,7 +17,10 @@
     </div>
 </template>
 <script>
+
+import Fumetticard from './Fumetticard.vue';
 export default {
+    components:{ Fumetticard },
     props:{
         fumettiList:Array
     }
