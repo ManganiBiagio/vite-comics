@@ -15,6 +15,9 @@
             </div>
 
         </div>
+        <div class="text-center py-3">
+            <button class="my-btn" >LOAD MORE</button>
+        </div>
     </div>
 </template>
 <script>
@@ -35,5 +38,20 @@ export default {
     border: unset;
     color: white;
     
+}
+.my-btn{
+    color: white;
+    background-color: var(--color-primary);
+    border: 3px solid var(--color-primary);
+    padding: 10px;
+    &:hover{
+        background-color: white;
+        color:black;
+        border: 3px solid white;
+        transition:background-color .3s;
+        
+        
+    }
+
 }
 </style>
